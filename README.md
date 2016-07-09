@@ -28,3 +28,4 @@ git stash//可以把当前工作现场“储藏”起来，等以后恢复现场
 git stash pop//把储藏起来的分支恢复过来并删掉储藏区
 git stash apply//恢复但没有删除
 git stash drop//删除储藏区
+//stash fix bug
