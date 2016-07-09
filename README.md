@@ -11,4 +11,15 @@ git checkout -b dev
 
 git branch // 列出所有分支，当前分支前有一个*
 
-git merge dev // 将当前分支指针指向dev分支的指针即合并分支
+git merge dev // 将当前分支指针指向dev分支的指针即合并分支，即合并dev分支到当前分支
+
+git branch -d dev //删除dev分支
+
+///////
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
+/////
